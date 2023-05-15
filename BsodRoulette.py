@@ -100,8 +100,8 @@ class Ui_MainWindow(object):
         
         if chamber == location:
             print("you are dead")
-            playsound(resource_path("sfx/gunshot.wav"), False)
             self.label.setText("You lose!")
+            playsound(resource_path("sfx/gunshot.wav"), False)
             self.its_bluescreen_time()
         chamber = chamber+1
         if chamber == 7:
