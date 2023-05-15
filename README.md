@@ -1,6 +1,13 @@
 # roulette
- Russian Roulette for your computer!
+Russian Roulette for your computer!
  
- Linux & mac version coming eventually maybe
+Linux & mac version coming eventually maybe
 
-[![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com)
+#
+
+- [Download for Windows](https://github.com/kompos1te/roulette/releases/latest/download/BsodRoulette.exe)
+
+#
+Requires PySide6 and Playsound 1.2.2
+
+    pip install pyside6, playsound==1.2.2
